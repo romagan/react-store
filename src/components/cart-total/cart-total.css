@@ -1,0 +1,22 @@
+.cart-total .alert,
+.cart-total table {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.cart-total .alert {
+  text-align: right;
+}
+
+.cart-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-total .btn {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

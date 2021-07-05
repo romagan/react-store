@@ -1,0 +1,55 @@
+.header {
+    margin-top: 0.5rem;
+}
+
+.header h3,
+.header ul {
+  margin-bottom: 0;
+}
+
+.header ul li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem 1rem;
+
+    border-radius: 3px;
+
+    list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+}
+
+.header h3 {
+  display: flex;
+  align-items: center;
+}
+
+.header h3 a {
+    color: #222222;
+}
+
+.header h3 a:hover {
+    color: #ff1753;
+}
+
+.header-cart {
+  margin-left: auto;
+  color: #222222;
+  cursor: pointer;
+}
+
+.header .bi {
+  margin-right: 10px;
+  fill: #ff1753;
+}
+
+.header-cart:hover {
+  color: #ff1753;
+}
