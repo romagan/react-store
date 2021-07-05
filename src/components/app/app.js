@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { GoodsStoreServiceProvider } from '../../context/goods-store-service-contex';
 import GoodsStoreService from '../../services/goodsstore-service';
 import store from '../../store';
