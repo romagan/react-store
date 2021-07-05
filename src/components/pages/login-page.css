@@ -1,0 +1,30 @@
+.login-page {
+  margin-top: 200px;
+}
+
+.login-page form {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.form-check * {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ff1753;
+  border-color: #ff1753;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+  background-color: #ff1753;
+  border-color: #ff1753;
+}
+
+.feedback {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: .875em;
+  color: #dc3545;
+}

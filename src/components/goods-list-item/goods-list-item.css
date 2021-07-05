@@ -1,0 +1,43 @@
+.card {
+  height: 100%;
+}
+
+.card a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.card .btn,
+.card .btn:hover {
+  color: #ffffff;
+}
+
+.card a:hover {
+  color: #ff1753;
+}
+
+.card-img-top {
+  height: 16rem;
+  object-fit: contain;
+}
+
+.card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: .375rem;
+}
+
+.card-element .card-btn {
+  width: auto;
+}
+
+.card-element .card-btn span {
+  margin-right: 15px;
+}
+
+.card-price {
+  font-size: 1.8rem;
+}
